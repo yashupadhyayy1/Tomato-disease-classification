@@ -36,7 +36,7 @@ The application has a `predict` function that accepts an image file, downloads t
 
 ## Model Training
 
-The notebook `model_training.ipynb` contains the code for training the potato disease prediction model. The specific details of the model architecture and training process can be found in the notebook.
+The notebook `Copy of Model_training.ipynb` contains the code for training the potato disease prediction model. The specific details of the model architecture and training process can be found in the notebook. It is clear from the feature Engineering that CNN is best fir for it.
 
 ## Requirements
 
