@@ -1,6 +1,6 @@
-# Potato Disease Prediction Project
+# Tomato Disease Prediction Project
 
-This project aims to predict potato diseases using machine learning techniques. It provides an API for predicting diseases based on input images of potato leaves.
+This project aims to predict Tomato diseases using machine learning techniques. It provides an API for predicting diseases based on input images of Tomato leaves.
 
 ## API
 
@@ -17,11 +17,11 @@ This file contains the main FastAPI application for the disease prediction API. 
 The API has the following endpoints:
 
 - **GET /ping**: Returns a simple "Hello, I am alive" message to verify the API's availability.
-- **POST /predict**: Accepts an uploaded image file and predicts the potato disease based on the image.
+- **POST /predict**: Accepts an uploaded image file and predicts the Tomato disease based on the image.
 
 ### api/exp.py
 
-This file contains an alternate version of the API implementation. It also uses the FastAPI framework and provides the same endpoints for predicting potato diseases. The libraries used in this file are similar to the ones used in `api/main.py`.
+This file contains an alternate version of the API implementation. It also uses the FastAPI framework and provides the same endpoints for predicting Tomato diseases. The libraries used in this file are similar to the ones used in `api/main.py`.
 
 ### gcp/main.py
 
@@ -36,7 +36,7 @@ The application has a `predict` function that accepts an image file, downloads t
 
 ## Model Training
 
-The notebook `Copy of Model_training.ipynb` contains the code for training the potato disease prediction model. The specific details of the model architecture and training process can be found in the notebook. It is clear from the feature Engineering that CNN is best fir for it.
+The notebook `Copy of Model_training.ipynb` contains the code for training the Tomato disease prediction model. The specific details of the model architecture and training process can be found in the notebook. It is clear from the feature Engineering that CNN is best fir for it.
 
 ## Requirements
 
@@ -66,7 +66,7 @@ To run the project, follow these steps:
      ```
      python main.py
      ```
-3. Once the server is running, you can make requests to the API endpoints for predicting potato diseases.
+3. Once the server is running, you can make requests to the API endpoints for predicting Tomato diseases.
 
 Note: The provided code snippets assume that the necessary model files and dataset are available in the correct paths.
 
